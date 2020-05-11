@@ -56,6 +56,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/add-post/add-post.component.html":
+  /*!***************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/add-post/add-post.component.html ***!
+    \***************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsAddPostAddPostComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"col-lg-9 col-md-9 col-sm-9\">\n  <h4>Dodaj post:</h4>\n  <form (ngSubmit)=\"save()\">\n    <div class=\"form-group\">\n      <label class=\"col-form-label\">Tytuł:</label>\n      <input\n        name=\"title\"\n        type=\"text\"\n        class=\"form-control\"\n        placeholder=\"Wprowadź tytuł\"\n        [(ngModel)]=\"post.title\"\n      />\n    </div>\n\n    <div class=\"form-group\">\n      <label class=\"col-form-label\">Adres obrazu:</label>\n      <input name=\"url\" type=\"text\" class=\"form-control\" placeholder=\"URL\" [(ngModel)]=\"post.url\" />\n    </div>\n\n    <div class=\"form-group\">\n      <label class=\"col-form-label\">Treść:</label>\n      <textarea\n        name=\"content\"\n        type=\"text\"\n        class=\"form-control\"\n        placeholder=\"Treść\"\n        [(ngModel)]=\"post.content\"\n        rows=\"10\"\n      ></textarea>\n    </div>\n\n    <div class=\"form-group button\">\n      <button type=\"submit\" class=\"btn btn-info\">Dodaj</button>\n    </div>\n  </form>\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/blog-home/blog-home.component.html":
   /*!*****************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/blog-home/blog-home.component.html ***!
@@ -251,7 +271,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nav class=\"main-nav\">\n  <ul class=\"link-list\">\n    <li [routerLink]=\"['/']\">home</li>\n    <li [routerLink]=\"['/blog']\">blog</li>\n    <li [routerLink]=\"['/contact']\">contact</li>\n  </ul>\n</nav>\n";
+    __webpack_exports__["default"] = "<nav class=\"main-nav\">\n  <ul class=\"link-list\">\n    <li [routerLink]=\"['/']\">home</li>\n    <li [routerLink]=\"['/blog']\">blog</li>\n    <li [routerLink]=\"['/contact']\">contact</li>\n    <li [routerLink]=\"['/add-post']\">add new post</li>\n  </ul>\n</nav>\n";
     /***/
   },
 
@@ -929,6 +949,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/blog-home/blog-home.component */
     "./src/app/components/blog-home/blog-home.component.ts");
+    /* harmony import */
+
+
+    var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! ./components/add-post/add-post.component */
+    "./src/app/components/add-post/add-post.component.ts");
 
     var routes = [{
       path: '',
@@ -942,6 +968,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }, {
       path: 'blog/detail/:id',
       component: _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_5__["BlogItemDetailsComponent"]
+    }, {
+      path: 'add-post',
+      component: _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_7__["AddPostComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -1176,17 +1205,137 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./components/selectize/selectize.component */
     "./src/app/components/selectize/selectize.component.ts");
+    /* harmony import */
+
+
+    var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    /*! ./components/add-post/add-post.component */
+    "./src/app/components/add-post/add-post.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"], _components_blog_item_blog_item_component__WEBPACK_IMPORTED_MODULE_9__["BlogItemComponent"], _components_blog_item_text_blog_item_text_component__WEBPACK_IMPORTED_MODULE_10__["BlogItemTextComponent"], _components_blog_item_image_blog_item_image_component__WEBPACK_IMPORTED_MODULE_11__["BlogItemImageComponent"], _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_12__["BlogItemDetailsComponent"], _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_15__["SummaryPipe"], _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_16__["SearchBarComponent"], _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_18__["BlogHomeComponent"], _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_19__["FilterPipe"], _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_20__["TextFormatDirective"], _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__["SelectizeComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"], _components_blog_item_blog_item_component__WEBPACK_IMPORTED_MODULE_9__["BlogItemComponent"], _components_blog_item_text_blog_item_text_component__WEBPACK_IMPORTED_MODULE_10__["BlogItemTextComponent"], _components_blog_item_image_blog_item_image_component__WEBPACK_IMPORTED_MODULE_11__["BlogItemImageComponent"], _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_12__["BlogItemDetailsComponent"], _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_15__["SummaryPipe"], _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_16__["SearchBarComponent"], _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_18__["BlogHomeComponent"], _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_19__["FilterPipe"], _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_20__["TextFormatDirective"], _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__["SelectizeComponent"], _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__["AddPostComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_17__["FormsModule"]],
       providers: [_services_data_service__WEBPACK_IMPORTED_MODULE_14__["DataService"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/add-post/add-post.component.scss":
+  /*!*************************************************************!*\
+    !*** ./src/app/components/add-post/add-post.component.scss ***!
+    \*************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsAddPostAddPostComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYWRkLXBvc3QvYWRkLXBvc3QuY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/add-post/add-post.component.ts":
+  /*!***********************************************************!*\
+    !*** ./src/app/components/add-post/add-post.component.ts ***!
+    \***********************************************************/
+
+  /*! exports provided: AddPostComponent */
+
+  /***/
+  function srcAppComponentsAddPostAddPostComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AddPostComponent", function () {
+      return AddPostComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _services_data_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../../services/data.service */
+    "./src/app/services/data.service.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var AddPostComponent = /*#__PURE__*/function () {
+      function AddPostComponent(dataService, router) {
+        _classCallCheck(this, AddPostComponent);
+
+        this.dataService = dataService;
+        this.router = router;
+        this.post = {
+          title: '',
+          url: '',
+          content: ''
+        };
+      }
+
+      _createClass(AddPostComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }, {
+        key: "save",
+        value: function save() {
+          var _this = this;
+
+          this.dataService.createOrUpdate(this.post).subscribe(function (f) {
+            _this.router.navigate(['/blog']);
+          });
+        }
+      }]);
+
+      return AddPostComponent;
+    }();
+
+    AddPostComponent.ctorParameters = function () {
+      return [{
+        type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+      }];
+    };
+
+    AddPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-add-post',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./add-post.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/add-post/add-post.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./add-post.component.scss */
+      "./src/app/components/add-post/add-post.component.scss")).default]
+    })], AddPostComponent);
     /***/
   },
 
@@ -1348,15 +1497,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(BlogItemDetailsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this = this;
+          var _this2 = this;
 
           var id;
           this.route.paramMap.subscribe(function (params) {
             id = params.get('id');
           });
           this.dataService.getById(id).subscribe(function (res) {
-            _this.image = res['image'];
-            _this.text = res['text'];
+            _this2.image = res['image'];
+            _this2.text = res['text'];
           });
         }
       }]);
@@ -1694,10 +1843,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getAll",
         value: function getAll() {
-          var _this2 = this;
+          var _this3 = this;
 
           this.service.getAll().subscribe(function (response) {
-            _this2.items$ = response;
+            _this3.items$ = response;
           });
         }
       }]);
@@ -1958,16 +2107,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(SelectizeComponent, [{
         key: "ngAfterViewInit",
         value: function ngAfterViewInit() {
-          var _this3 = this;
+          var _this4 = this;
 
           Object(rxjs_observable_fromEvent__WEBPACK_IMPORTED_MODULE_2__["fromEvent"])(this.input.nativeElement, 'keyup').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (event) {
             return event['target'].value;
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["debounceTime"])(400), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["distinctUntilChanged"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(function (value) {
-            return _this3.dataService.getByText({
+            return _this4.dataService.getByText({
               text: value
             });
           })).subscribe(function (results) {
-            _this3.posts$ = results;
+            _this4.posts$ = results;
           });
         }
       }]);
@@ -2319,6 +2468,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function getByText(data) {
           return this.http.post(this.url + '/api/posts', data);
         }
+      }, {
+        key: "createOrUpdate",
+        value: function createOrUpdate(post) {
+          return this.http.post("".concat(this.url, "/api/posts"), post);
+        }
       }]);
 
       return DataService;
@@ -2404,12 +2558,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(SearchBarComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this4 = this;
+          var _this5 = this;
 
           this.route.queryParams.subscribe(function (params) {
-            _this4.filterText = params['name'];
+            _this5.filterText = params['name'];
 
-            _this4.sendFilter();
+            _this5.sendFilter();
           });
         }
       }, {
