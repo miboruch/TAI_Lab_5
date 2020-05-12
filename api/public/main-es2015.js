@@ -123,7 +123,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<selectize></selectize>\n<div *ngFor=\"let item of items$ | filter: filterText\" [className]=\"'flex-wrapper'\">\n  <blog-item [id]=\"item.id\" [image]=\"item.image\" [text]=\"item.title\"> </blog-item>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<selectize></selectize>\n<div *ngFor=\"let item of items$ | filter: filterText\" [className]=\"'flex-wrapper'\">\n  <blog-item [id]=\"item.id\" [image]=\"item.url\" [text]=\"item.content\"> </blog-item>\n</div>\n");
 
 /***/ }),
 
@@ -1339,7 +1339,7 @@ __webpack_require__.r(__webpack_exports__);
 let DataService = class DataService {
     constructor(http) {
         this.http = http;
-        this.url = 'https://blogtai.herokuapp.com';
+        this.url = 'http://localhost:3000';
     }
     getAll() {
         return this.http.get(this.url + '/api/posts');

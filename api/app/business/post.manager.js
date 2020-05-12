@@ -31,5 +31,5 @@ function create(context) {
 }
 
 export default {
-  create
-};
+  create: create
+}
