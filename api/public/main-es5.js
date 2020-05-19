@@ -2466,7 +2466,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getByText",
         value: function getByText(data) {
-          return this.http.post(this.url + '/api/posts', data);
+          return this.http.post(this.url + '/api/posts/search', data);
         }
       }, {
         key: "createOrUpdate",
