@@ -23,13 +23,21 @@ function create(context) {
     }
   }
 
+  async function search(data) {
+    const result = await postDAO.search(data);
+    if (result) {
+      return result;
+    }
+  }
+
   return {
     query: query,
     get: get,
-    createNewOrUpdate: createNewOrUpdate
+    createNewOrUpdate: createNewOrUpdate,
+    search: search
   };
 }
 
 export default {
   create: create
-}
+};

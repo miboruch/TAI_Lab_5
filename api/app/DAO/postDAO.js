@@ -35,6 +35,16 @@ export const get = async id => {
   });
 };
 
+export const search = async content => {
+  try{
+    const result = await PostModel.find(content);
+
+    return mongoConverter(result);
+  }catch(error){
+    console.log(error);
+  }
+}
+
 export const createNewOrUpdate = async data => {
   return Promise.resolve().then(() => {
     if (!data.id) {
