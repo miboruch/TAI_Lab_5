@@ -15,7 +15,7 @@ export class DataService {
   }
 
   getByText(data) {
-    return this.http.post(this.url + '/api/posts', data);
+    return this.http.post(this.url + '/api/posts/search', data);
   }
 
   createOrUpdate(post) {
