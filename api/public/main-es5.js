@@ -1,9 +1,3 @@
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
   "./$$_lazy_route_resource lazy recursive":
@@ -236,6 +230,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/login/login.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/login/login.component.html ***!
+    \*********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsLoginLoginComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<form action=\"post\" autocomplete=\"off\" method=\"POST\">\n  <div class=\"input-group\">\n    <input\n      [(ngModel)]=\"credentials.login\"\n      type=\"text\"\n      class=\"form-control\"\n      name=\"username\"\n      placeholder=\"Nazwa\"\n      title=\"Wprowadź login\"\n    />\n  </div>\n\n  <div class=\"input-group\">\n    <input\n      [(ngModel)]=\"credentials.password\"\n      type=\"password\"\n      class=\"form-control\"\n      name=\"password\"\n      placeholder=\"Hasło\"\n      title=\"Wprowadź hasło\"\n    />\n  </div>\n\n  <button\n    (click)=\"signIn()\"\n    class=\"btn btn-lg btn-pink btn-block\"\n    type=\"submit\"\n    title=\"Przycisk zaloguj\"\n  >\n    Zaloguj\n  </button>\n</form>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/selectize/selectize.component.html":
   /*!*****************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/selectize/selectize.component.html ***!
@@ -256,6 +270,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/signup/signup.component.html":
+  /*!***********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/signup/signup.component.html ***!
+    \***********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSignupSignupComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<section class=\"signup\">\n  <h1 class=\"entry-title\"><span>Zarejestruj się</span></h1>\n  <hr />\n  <form class=\"form-horizontal\" method=\"post\" name=\"signup\" id=\"signup\">\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Email<span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-8 col-sm-9\">\n        <div class=\"input-group\">\n          <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-envelope\"></i></span>\n          <input\n            type=\"email\"\n            class=\"form-control\"\n            name=\"emailid\"\n            id=\"emailid\"\n            placeholder=\"Podaj swój email\"\n            value=\"\"\n            [(ngModel)]=\"credentials.email\"\n          />\n        </div>\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Ustaw hasło<span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-5 col-sm-8\">\n        <div class=\"input-group\">\n          <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n          <input\n            type=\"password\"\n            class=\"form-control\"\n            name=\"password\"\n            id=\"password\"\n            placeholder=\"Wpisz hasło (5-15 znaków)\"\n            value=\"\"\n            [(ngModel)]=\"credentials.password\"\n          />\n        </div>\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\"\n        >Potwierdź hasło <span class=\"text-danger\">*</span></label\n      >\n      <div class=\"col-md-5 col-sm-8\">\n        <div class=\"input-group\">\n          <span class=\"input-group-addon\"><i class=\"glyphicon glyphicon-lock\"></i></span>\n          <input\n            type=\"password\"\n            class=\"form-control\"\n            name=\"cpassword\"\n            id=\"cpassword\"\n            placeholder=\"Potwierdź hasło\"\n            value=\"\"\n          />\n        </div>\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label class=\"control-label col-sm-3\">Podaj imię <span class=\"text-danger\">*</span></label>\n      <div class=\"col-md-8 col-sm-9\">\n        <input\n          type=\"text\"\n          class=\"form-control\"\n          name=\"mem_name\"\n          id=\"mem_name\"\n          placeholder=\"Wpisz imię\"\n          value=\"\"\n          [(ngModel)]=\"credentials.name\"\n        />\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <div class=\"col-xs-offset-3 col-xs-10\">\n        <button (click)=\"create()\" name=\"Submit\" type=\"submit\" class=\"btn btn-primary\">\n          Zarejestruj\n        </button>\n      </div>\n    </div>\n  </form>\n</section>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/navbar/navbar.component.html":
   /*!************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/navbar/navbar.component.html ***!
@@ -271,7 +305,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nav class=\"main-nav\">\n  <ul class=\"link-list\">\n    <li [routerLink]=\"['/']\">home</li>\n    <li [routerLink]=\"['/blog']\">blog</li>\n    <li [routerLink]=\"['/contact']\">contact</li>\n    <li [routerLink]=\"['/add-post']\">add new post</li>\n  </ul>\n</nav>\n";
+    __webpack_exports__["default"] = "<nav class=\"main-nav\">\n  <ul class=\"link-list\">\n    <li [routerLink]=\"['/']\">home</li>\n    <li [routerLink]=\"['/blog']\">blog</li>\n    <li [routerLink]=\"['/contact']\">contact</li>\n    <li [routerLink]=\"['/add-post']\">add new post</li>\n    <li [routerLink]=\"['/login']\">login</li>\n    <li [routerLink]=\"['/register']\">register</li>\n  </ul>\n  <button (click)=\"logOut()\" class=\"dropdown-item\">Wyloguj</button>\n</nav>\n";
     /***/
   },
 
@@ -464,9 +498,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       } instanceof Array && function (d, b) {
         d.__proto__ = b;
       } || function (d, b) {
-        for (var p in b) {
-          if (b.hasOwnProperty(p)) d[p] = b[p];
-        }
+        for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
       };
 
       return _extendStatics(d, b);
@@ -487,9 +519,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         for (var s, i = 1, n = arguments.length; i < n; i++) {
           s = arguments[i];
 
-          for (var p in s) {
-            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-          }
+          for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
         }
 
         return t;
@@ -501,9 +531,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     function __rest(s, e) {
       var t = {};
 
-      for (var p in s) {
-        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-      }
+      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
 
       if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
         if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
@@ -515,9 +543,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var c = arguments.length,
           r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
           d;
-      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
-        if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-      }
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
       return c > 3 && r && Object.defineProperty(target, key, r), r;
     }
 
@@ -594,76 +620,74 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
 
-        while (_) {
-          try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
+        while (_) try {
+          if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+          if (y = 0, t) op = [op[0] & 2, t.value];
 
-            switch (op[0]) {
-              case 0:
-              case 1:
+          switch (op[0]) {
+            case 0:
+            case 1:
+              t = op;
+              break;
+
+            case 4:
+              _.label++;
+              return {
+                value: op[1],
+                done: false
+              };
+
+            case 5:
+              _.label++;
+              y = op[1];
+              op = [0];
+              continue;
+
+            case 7:
+              op = _.ops.pop();
+
+              _.trys.pop();
+
+              continue;
+
+            default:
+              if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
+                _ = 0;
+                continue;
+              }
+
+              if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
+                _.label = op[1];
+                break;
+              }
+
+              if (op[0] === 6 && _.label < t[1]) {
+                _.label = t[1];
                 t = op;
                 break;
+              }
 
-              case 4:
-                _.label++;
-                return {
-                  value: op[1],
-                  done: false
-                };
+              if (t && _.label < t[2]) {
+                _.label = t[2];
 
-              case 5:
-                _.label++;
-                y = op[1];
-                op = [0];
-                continue;
+                _.ops.push(op);
 
-              case 7:
-                op = _.ops.pop();
+                break;
+              }
 
-                _.trys.pop();
+              if (t[2]) _.ops.pop();
 
-                continue;
+              _.trys.pop();
 
-              default:
-                if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
-                  _ = 0;
-                  continue;
-                }
-
-                if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
-                  _.label = op[1];
-                  break;
-                }
-
-                if (op[0] === 6 && _.label < t[1]) {
-                  _.label = t[1];
-                  t = op;
-                  break;
-                }
-
-                if (t && _.label < t[2]) {
-                  _.label = t[2];
-
-                  _.ops.push(op);
-
-                  break;
-                }
-
-                if (t[2]) _.ops.pop();
-
-                _.trys.pop();
-
-                continue;
-            }
-
-            op = body.call(thisArg, _);
-          } catch (e) {
-            op = [6, e];
-            y = 0;
-          } finally {
-            f = t = 0;
+              continue;
           }
+
+          op = body.call(thisArg, _);
+        } catch (e) {
+          op = [6, e];
+          y = 0;
+        } finally {
+          f = t = 0;
         }
 
         if (op[0] & 5) throw op[1];
@@ -675,9 +699,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function __exportStar(m, exports) {
-      for (var p in m) {
-        if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-      }
+      for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
     }
 
     function __values(o) {
@@ -706,9 +728,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           e;
 
       try {
-        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) {
-          ar.push(r.value);
-        }
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
       } catch (error) {
         e = {
           error: error
@@ -725,23 +745,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function __spread() {
-      for (var ar = [], i = 0; i < arguments.length; i++) {
-        ar = ar.concat(__read(arguments[i]));
-      }
+      for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
 
       return ar;
     }
 
     function __spreadArrays() {
-      for (var s = 0, i = 0, il = arguments.length; i < il; i++) {
-        s += arguments[i].length;
-      }
+      for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
 
-      for (var r = Array(s), k = 0, i = 0; i < il; i++) {
-        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++) {
-          r[k] = a[j];
-        }
-      }
+      for (var r = Array(s), k = 0, i = 0; i < il; i++) for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++) r[k] = a[j];
 
       return r;
     }
@@ -855,9 +867,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     function __importStar(mod) {
       if (mod && mod.__esModule) return mod;
       var result = {};
-      if (mod != null) for (var k in mod) {
-        if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-      }
+      if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
       result.default = mod;
       return result;
     }
@@ -955,16 +965,41 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./components/add-post/add-post.component */
     "./src/app/components/add-post/add-post.component.ts");
+    /* harmony import */
 
-    var routes = [{
+
+    var _services_auth_guard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! ./services/auth.guard */
+    "./src/app/services/auth.guard.ts");
+    /* harmony import */
+
+
+    var _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./components/login/login.component */
+    "./src/app/components/login/login.component.ts");
+    /* harmony import */
+
+
+    var _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./components/signup/signup.component */
+    "./src/app/components/signup/signup.component.ts");
+
+    const routes = [{
       path: '',
       component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
+    }, {
+      path: 'login',
+      component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__["LoginComponent"]
+    }, {
+      path: 'register',
+      component: _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_10__["SignupComponent"]
     }, {
       path: 'contact',
       component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"]
     }, {
       path: 'blog',
-      component: _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_6__["BlogHomeComponent"]
+      component: _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_6__["BlogHomeComponent"],
+      canActivate: [_services_auth_guard__WEBPACK_IMPORTED_MODULE_8__["AuthGuard"]]
     }, {
       path: 'blog/detail/:id',
       component: _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_5__["BlogItemDetailsComponent"]
@@ -972,11 +1007,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       path: 'add-post',
       component: _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_7__["AddPostComponent"]
     }];
-
-    var AppRoutingModule = function AppRoutingModule() {
-      _classCallCheck(this, AppRoutingModule);
-    };
-
+    let AppRoutingModule = class AppRoutingModule {};
     AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
       imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
       exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
@@ -1036,12 +1067,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var AppComponent = function AppComponent() {
-      _classCallCheck(this, AppComponent);
+    let AppComponent = class AppComponent {
+      constructor() {
+        this.title = 'blog';
+      }
 
-      this.title = 'blog';
     };
-
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-root',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -1211,15 +1242,40 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./components/add-post/add-post.component */
     "./src/app/components/add-post/add-post.component.ts");
+    /* harmony import */
 
-    var AppModule = function AppModule() {
-      _classCallCheck(this, AppModule);
-    };
 
+    var _services_auth_service__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    /*! ./services/auth.service */
+    "./src/app/services/auth.service.ts");
+    /* harmony import */
+
+
+    var _services_auth_interceptor__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    /*! ./services/auth.interceptor */
+    "./src/app/services/auth.interceptor.ts");
+    /* harmony import */
+
+
+    var _components_login_login_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    /*! ./components/login/login.component */
+    "./src/app/components/login/login.component.ts");
+    /* harmony import */
+
+
+    var _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+    /*! ./components/signup/signup.component */
+    "./src/app/components/signup/signup.component.ts");
+
+    let AppModule = class AppModule {};
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"], _components_blog_item_blog_item_component__WEBPACK_IMPORTED_MODULE_9__["BlogItemComponent"], _components_blog_item_text_blog_item_text_component__WEBPACK_IMPORTED_MODULE_10__["BlogItemTextComponent"], _components_blog_item_image_blog_item_image_component__WEBPACK_IMPORTED_MODULE_11__["BlogItemImageComponent"], _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_12__["BlogItemDetailsComponent"], _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_15__["SummaryPipe"], _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_16__["SearchBarComponent"], _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_18__["BlogHomeComponent"], _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_19__["FilterPipe"], _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_20__["TextFormatDirective"], _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__["SelectizeComponent"], _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__["AddPostComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_8__["NavbarComponent"], _components_blog_item_blog_item_component__WEBPACK_IMPORTED_MODULE_9__["BlogItemComponent"], _components_blog_item_text_blog_item_text_component__WEBPACK_IMPORTED_MODULE_10__["BlogItemTextComponent"], _components_blog_item_image_blog_item_image_component__WEBPACK_IMPORTED_MODULE_11__["BlogItemImageComponent"], _components_blog_item_details_blog_item_details_component__WEBPACK_IMPORTED_MODULE_12__["BlogItemDetailsComponent"], _pipes_summary_pipe__WEBPACK_IMPORTED_MODULE_15__["SummaryPipe"], _shared_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_16__["SearchBarComponent"], _components_blog_home_blog_home_component__WEBPACK_IMPORTED_MODULE_18__["BlogHomeComponent"], _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_19__["FilterPipe"], _directives_text_format_directive__WEBPACK_IMPORTED_MODULE_20__["TextFormatDirective"], _components_selectize_selectize_component__WEBPACK_IMPORTED_MODULE_21__["SelectizeComponent"], _components_add_post_add_post_component__WEBPACK_IMPORTED_MODULE_22__["AddPostComponent"], _components_login_login_component__WEBPACK_IMPORTED_MODULE_25__["LoginComponent"], _components_signup_signup_component__WEBPACK_IMPORTED_MODULE_26__["SignupComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_17__["FormsModule"]],
-      providers: [_services_data_service__WEBPACK_IMPORTED_MODULE_14__["DataService"]],
+      providers: [_services_data_service__WEBPACK_IMPORTED_MODULE_14__["DataService"], _services_auth_service__WEBPACK_IMPORTED_MODULE_23__["AuthService"], {
+        provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_13__["HTTP_INTERCEPTORS"],
+        useClass: _services_auth_interceptor__WEBPACK_IMPORTED_MODULE_24__["AuthInterceptor"],
+        multi: true
+      }],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
     /***/
@@ -1289,10 +1345,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
 
-    var AddPostComponent = /*#__PURE__*/function () {
-      function AddPostComponent(dataService, router) {
-        _classCallCheck(this, AddPostComponent);
-
+    let AddPostComponent = class AddPostComponent {
+      constructor(dataService, router) {
         this.dataService = dataService;
         this.router = router;
         this.post = {
@@ -1302,30 +1356,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         };
       }
 
-      _createClass(AddPostComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }, {
-        key: "save",
-        value: function save() {
-          var _this = this;
+      ngOnInit() {}
 
-          this.dataService.createOrUpdate(this.post).subscribe(function (f) {
-            _this.router.navigate(['/blog']);
-          });
-        }
-      }]);
+      save() {
+        this.dataService.createOrUpdate(this.post).subscribe(f => {
+          this.router.navigate(['/blog']);
+        });
+      }
 
-      return AddPostComponent;
-    }();
-
-    AddPostComponent.ctorParameters = function () {
-      return [{
-        type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
-      }, {
-        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
-      }];
     };
+
+    AddPostComponent.ctorParameters = () => [{
+      type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
+    }, {
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+    }];
 
     AddPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-add-post',
@@ -1391,24 +1436,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var BlogHomeComponent = /*#__PURE__*/function () {
-      function BlogHomeComponent() {
-        _classCallCheck(this, BlogHomeComponent);
+    let BlogHomeComponent = class BlogHomeComponent {
+      constructor() {}
+
+      ngOnInit() {}
+
+      getName($event) {
+        this.filterText = $event;
       }
 
-      _createClass(BlogHomeComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }, {
-        key: "getName",
-        value: function getName($event) {
-          this.filterText = $event;
-        }
-      }]);
-
-      return BlogHomeComponent;
-    }();
-
+    };
     BlogHomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'blog-home',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -1485,41 +1522,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
 
-    var BlogItemDetailsComponent = /*#__PURE__*/function () {
-      function BlogItemDetailsComponent(dataService, route) {
-        _classCallCheck(this, BlogItemDetailsComponent);
-
+    let BlogItemDetailsComponent = class BlogItemDetailsComponent {
+      constructor(dataService, route) {
         this.dataService = dataService;
         this.route = route;
         this.image = '';
       }
 
-      _createClass(BlogItemDetailsComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          var _this2 = this;
+      ngOnInit() {
+        let id;
+        this.route.paramMap.subscribe(params => {
+          id = params.get('id');
+        });
+        this.dataService.getById(id).subscribe(res => {
+          this.image = res['image'];
+          this.text = res['text'];
+        });
+      }
 
-          var id;
-          this.route.paramMap.subscribe(function (params) {
-            id = params.get('id');
-          });
-          this.dataService.getById(id).subscribe(function (res) {
-            _this2.image = res['image'];
-            _this2.text = res['text'];
-          });
-        }
-      }]);
-
-      return BlogItemDetailsComponent;
-    }();
-
-    BlogItemDetailsComponent.ctorParameters = function () {
-      return [{
-        type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
-      }, {
-        type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]
-      }];
     };
+
+    BlogItemDetailsComponent.ctorParameters = () => [{
+      type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
+    }, {
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]
+    }];
 
     BlogItemDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'blog-item-details',
@@ -1585,19 +1612,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var BlogItemImageComponent = /*#__PURE__*/function () {
-      function BlogItemImageComponent() {
-        _classCallCheck(this, BlogItemImageComponent);
-      }
+    let BlogItemImageComponent = class BlogItemImageComponent {
+      constructor() {}
 
-      _createClass(BlogItemImageComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
+      ngOnInit() {}
 
-      return BlogItemImageComponent;
-    }();
-
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogItemImageComponent.prototype, "image", void 0);
     BlogItemImageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'blog-item-image',
@@ -1663,19 +1683,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var BlogItemTextComponent = /*#__PURE__*/function () {
-      function BlogItemTextComponent() {
-        _classCallCheck(this, BlogItemTextComponent);
-      }
+    let BlogItemTextComponent = class BlogItemTextComponent {
+      constructor() {}
 
-      _createClass(BlogItemTextComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
+      ngOnInit() {}
 
-      return BlogItemTextComponent;
-    }();
-
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogItemTextComponent.prototype, "text", void 0);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogItemTextComponent.prototype, "id", void 0);
     BlogItemTextComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1742,19 +1755,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var BlogItemComponent = /*#__PURE__*/function () {
-      function BlogItemComponent() {
-        _classCallCheck(this, BlogItemComponent);
-      }
+    let BlogItemComponent = class BlogItemComponent {
+      constructor() {}
 
-      _createClass(BlogItemComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
+      ngOnInit() {}
 
-      return BlogItemComponent;
-    }();
-
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogItemComponent.prototype, "image", void 0);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogItemComponent.prototype, "text", void 0);
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogItemComponent.prototype, "id", void 0);
@@ -1828,37 +1834,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../../services/data.service */
     "./src/app/services/data.service.ts");
 
-    var BlogComponent = /*#__PURE__*/function () {
-      function BlogComponent(service) {
-        _classCallCheck(this, BlogComponent);
-
+    let BlogComponent = class BlogComponent {
+      constructor(service) {
         this.service = service;
       }
 
-      _createClass(BlogComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          this.getAll();
-        }
-      }, {
-        key: "getAll",
-        value: function getAll() {
-          var _this3 = this;
+      ngOnInit() {
+        this.getAll();
+      }
 
-          this.service.getAll().subscribe(function (response) {
-            _this3.items$ = response;
-          });
-        }
-      }]);
+      getAll() {
+        this.service.getAll().subscribe(response => {
+          this.items$ = response;
+        });
+      }
 
-      return BlogComponent;
-    }();
-
-    BlogComponent.ctorParameters = function () {
-      return [{
-        type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
-      }];
     };
+
+    BlogComponent.ctorParameters = () => [{
+      type: _services_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"]
+    }];
 
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], BlogComponent.prototype, "filterText", void 0);
     BlogComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -1925,19 +1920,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var ContactComponent = /*#__PURE__*/function () {
-      function ContactComponent() {
-        _classCallCheck(this, ContactComponent);
-      }
+    let ContactComponent = class ContactComponent {
+      constructor() {}
 
-      _createClass(ContactComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
+      ngOnInit() {}
 
-      return ContactComponent;
-    }();
-
+    };
     ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-contact',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -2002,19 +1990,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var HomeComponent = /*#__PURE__*/function () {
-      function HomeComponent() {
-        _classCallCheck(this, HomeComponent);
-      }
+    let HomeComponent = class HomeComponent {
+      constructor() {}
 
-      _createClass(HomeComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
+      ngOnInit() {}
 
-      return HomeComponent;
-    }();
-
+    };
     HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-home',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -2024,6 +2005,117 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./home.component.scss */
       "./src/app/components/home/home.component.scss")).default]
     })], HomeComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/login/login.component.scss":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/login/login.component.scss ***!
+    \*******************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsLoginLoginComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbG9naW4vbG9naW4uY29tcG9uZW50LnNjc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/login/login.component.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/components/login/login.component.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: LoginComponent */
+
+  /***/
+  function srcAppComponentsLoginLoginComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoginComponent", function () {
+      return LoginComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../../services/auth.service */
+    "./src/app/services/auth.service.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    let LoginComponent = class LoginComponent {
+      constructor(authService, router) {
+        this.authService = authService;
+        this.router = router;
+        this.credentials = {
+          login: '',
+          password: ''
+        };
+      }
+
+      signIn() {
+        return this.authService.authenticate(this.credentials).subscribe(result => {
+          if (!result) {
+            this.logged = false;
+          } else {
+            this.logout = false;
+            this.credentials = {
+              login: '',
+              password: ''
+            };
+            this.router.navigate(['/']);
+          }
+        });
+      }
+
+      ngOnInit() {}
+
+    };
+
+    LoginComponent.ctorParameters = () => [{
+      type: _services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]
+    }, {
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+    }];
+
+    LoginComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-login',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./login.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/login/login.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./login.component.scss */
+      "./src/app/components/login/login.component.scss")).default]
+    })], LoginComponent);
     /***/
   },
 
@@ -2097,38 +2189,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../../services/data.service */
     "./src/app/services/data.service.ts");
 
-    var SelectizeComponent = /*#__PURE__*/function () {
-      function SelectizeComponent(dataService) {
-        _classCallCheck(this, SelectizeComponent);
-
+    let SelectizeComponent = class SelectizeComponent {
+      constructor(dataService) {
         this.dataService = dataService;
       }
 
-      _createClass(SelectizeComponent, [{
-        key: "ngAfterViewInit",
-        value: function ngAfterViewInit() {
-          var _this4 = this;
+      ngAfterViewInit() {
+        Object(rxjs_observable_fromEvent__WEBPACK_IMPORTED_MODULE_2__["fromEvent"])(this.input.nativeElement, 'keyup').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(event => event['target'].value), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["debounceTime"])(400), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["distinctUntilChanged"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(value => this.dataService.getByText({
+          text: value
+        }))).subscribe(results => {
+          this.posts$ = results;
+        });
+      }
 
-          Object(rxjs_observable_fromEvent__WEBPACK_IMPORTED_MODULE_2__["fromEvent"])(this.input.nativeElement, 'keyup').pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (event) {
-            return event['target'].value;
-          }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["debounceTime"])(400), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["distinctUntilChanged"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(function (value) {
-            return _this4.dataService.getByText({
-              text: value
-            });
-          })).subscribe(function (results) {
-            _this4.posts$ = results;
-          });
-        }
-      }]);
-
-      return SelectizeComponent;
-    }();
-
-    SelectizeComponent.ctorParameters = function () {
-      return [{
-        type: _services_data_service__WEBPACK_IMPORTED_MODULE_4__["DataService"]
-      }];
     };
+
+    SelectizeComponent.ctorParameters = () => [{
+      type: _services_data_service__WEBPACK_IMPORTED_MODULE_4__["DataService"]
+    }];
 
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('input', {
       static: false
@@ -2142,6 +2220,100 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./selectize.component.scss */
       "./src/app/components/selectize/selectize.component.scss")).default]
     })], SelectizeComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/signup/signup.component.scss":
+  /*!*********************************************************!*\
+    !*** ./src/app/components/signup/signup.component.scss ***!
+    \*********************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsSignupSignupComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2lnbnVwL3NpZ251cC5jb21wb25lbnQuc2NzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/signup/signup.component.ts":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/signup/signup.component.ts ***!
+    \*******************************************************/
+
+  /*! exports provided: SignupComponent */
+
+  /***/
+  function srcAppComponentsSignupSignupComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SignupComponent", function () {
+      return SignupComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../../services/auth.service */
+    "./src/app/services/auth.service.ts");
+
+    let SignupComponent = class SignupComponent {
+      constructor(authService) {
+        this.authService = authService;
+        this.credentials = {
+          name: '',
+          email: '',
+          password: ''
+        };
+      }
+
+      create() {
+        this.authService.createOrUpdate(this.credentials).subscribe(result => {
+          return result;
+        });
+      }
+
+      ngOnInit() {}
+
+    };
+
+    SignupComponent.ctorParameters = () => [{
+      type: _services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]
+    }];
+
+    SignupComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-signup',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./signup.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/signup/signup.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./signup.component.scss */
+      "./src/app/components/signup/signup.component.scss")).default]
+    })], SignupComponent);
     /***/
   },
 
@@ -2177,29 +2349,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var TextFormatDirective = /*#__PURE__*/function () {
-      function TextFormatDirective(el) {
-        _classCallCheck(this, TextFormatDirective);
-
+    let TextFormatDirective = class TextFormatDirective {
+      constructor(el) {
         this.el = el;
       }
 
-      _createClass(TextFormatDirective, [{
-        key: "onBlur",
-        value: function onBlur() {
-          var value = this.el.nativeElement.value;
-          this.el.nativeElement.value = value.toLowerCase();
-        }
-      }]);
+      onBlur() {
+        const value = this.el.nativeElement.value;
+        this.el.nativeElement.value = value.toLowerCase();
+      }
 
-      return TextFormatDirective;
-    }();
-
-    TextFormatDirective.ctorParameters = function () {
-      return [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]
-      }];
     };
+
+    TextFormatDirective.ctorParameters = () => [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]
+    }];
 
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('blur')], TextFormatDirective.prototype, "onBlur", null);
     TextFormatDirective = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"])({
@@ -2259,19 +2423,40 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
 
-    var NavbarComponent = /*#__PURE__*/function () {
-      function NavbarComponent() {
-        _classCallCheck(this, NavbarComponent);
+
+    var _services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../services/auth.service */
+    "./src/app/services/auth.service.ts");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    let NavbarComponent = class NavbarComponent {
+      constructor(authService, router) {
+        this.authService = authService;
+        this.router = router;
       }
 
-      _createClass(NavbarComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
+      logOut() {
+        this.authService.logout().subscribe(() => {
+          this.router.navigate(['/']);
+        });
+      }
 
-      return NavbarComponent;
-    }();
+      ngOnInit() {}
+
+    };
+
+    NavbarComponent.ctorParameters = () => [{
+      type: _services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]
+    }, {
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]
+    }];
 
     NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       // tslint:disable-next-line:component-selector
@@ -2318,32 +2503,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var FilterPipe = /*#__PURE__*/function () {
-      function FilterPipe() {
-        _classCallCheck(this, FilterPipe);
+    let FilterPipe = class FilterPipe {
+      transform(value, filterText) {
+        if (!value) {
+          return [];
+        }
+
+        if (!filterText) {
+          return value;
+        }
+
+        filterText = filterText.toLowerCase();
+        return value.filter(val => {
+          return val.title.toLowerCase().includes(filterText);
+        });
       }
 
-      _createClass(FilterPipe, [{
-        key: "transform",
-        value: function transform(value, filterText) {
-          if (!value) {
-            return [];
-          }
-
-          if (!filterText) {
-            return value;
-          }
-
-          filterText = filterText.toLowerCase();
-          return value.filter(function (val) {
-            return val.title.toLowerCase().includes(filterText);
-          });
-        }
-      }]);
-
-      return FilterPipe;
-    }();
-
+    };
     FilterPipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
       name: 'filter'
     })], FilterPipe);
@@ -2382,28 +2558,260 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
 
-    var SummaryPipe = /*#__PURE__*/function () {
-      function SummaryPipe() {
-        _classCallCheck(this, SummaryPipe);
+    let SummaryPipe = class SummaryPipe {
+      transform(value, limit) {
+        if (!value) {
+          return null;
+        }
+
+        return value.substr(0, limit) + '...';
       }
 
-      _createClass(SummaryPipe, [{
-        key: "transform",
-        value: function transform(value, limit) {
-          if (!value) {
-            return null;
-          }
-
-          return value.substr(0, limit) + '...';
-        }
-      }]);
-
-      return SummaryPipe;
-    }();
-
+    };
     SummaryPipe = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
       name: 'summary'
     })], SummaryPipe);
+    /***/
+  },
+
+  /***/
+  "./src/app/services/auth.guard.ts":
+  /*!****************************************!*\
+    !*** ./src/app/services/auth.guard.ts ***!
+    \****************************************/
+
+  /*! exports provided: AuthGuard */
+
+  /***/
+  function srcAppServicesAuthGuardTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AuthGuard", function () {
+      return AuthGuard;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./auth.service */
+    "./src/app/services/auth.service.ts");
+
+    let AuthGuard = class AuthGuard {
+      constructor(authService) {
+        this.authService = authService;
+      }
+
+      canActivate() {
+        if (this.authService.isLoggedIn()) {
+          return true;
+        }
+      }
+
+    };
+
+    AuthGuard.ctorParameters = () => [{
+      type: _auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]
+    }];
+
+    AuthGuard = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()], AuthGuard);
+    /***/
+  },
+
+  /***/
+  "./src/app/services/auth.interceptor.ts":
+  /*!**********************************************!*\
+    !*** ./src/app/services/auth.interceptor.ts ***!
+    \**********************************************/
+
+  /*! exports provided: AuthInterceptor */
+
+  /***/
+  function srcAppServicesAuthInterceptorTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AuthInterceptor", function () {
+      return AuthInterceptor;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./auth.service */
+    "./src/app/services/auth.service.ts");
+
+    let AuthInterceptor = class AuthInterceptor {
+      constructor(injector) {
+        this.injector = injector;
+      }
+
+      intercept(request, next) {
+        const auth = this.injector.get(_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"]);
+        request = request.clone({
+          setHeaders: {
+            'x-auth-token': "".concat(auth.getToken())
+          }
+        });
+        return next.handle(request);
+      }
+
+    };
+
+    AuthInterceptor.ctorParameters = () => [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]
+    }];
+
+    AuthInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()], AuthInterceptor);
+    /***/
+  },
+
+  /***/
+  "./src/app/services/auth.service.ts":
+  /*!******************************************!*\
+    !*** ./src/app/services/auth.service.ts ***!
+    \******************************************/
+
+  /*! exports provided: AuthService */
+
+  /***/
+  function srcAppServicesAuthServiceTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AuthService", function () {
+      return AuthService;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var angular2_jwt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! angular2-jwt */
+    "./node_modules/angular2-jwt/angular2-jwt.js");
+    /* harmony import */
+
+
+    var angular2_jwt__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_jwt__WEBPACK_IMPORTED_MODULE_3__);
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+
+    let AuthService = class AuthService {
+      constructor(http) {
+        this.http = http;
+        this.url = 'http://localhost:3000/api';
+      }
+
+      authenticate(credentials) {
+        return this.http.post(this.url + '/user/auth', {
+          login: credentials.login,
+          password: credentials.password
+        }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(result => {
+          if (result && result.token) {
+            localStorage.setItem('token', result.token);
+            return true;
+          }
+
+          return false;
+        }));
+      }
+
+      createOrUpdate(credentials) {
+        return this.http.post(this.url + '/user/create', credentials);
+      }
+
+      logout() {
+        return this.http.delete(this.url + '/user/logout/' + this.currentUser.userId).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(() => {
+          localStorage.removeItem('token');
+        }));
+      }
+
+      isLoggedIn() {
+        const jwtHelper = new angular2_jwt__WEBPACK_IMPORTED_MODULE_3__["JwtHelper"]();
+        const token = localStorage.getItem('token');
+
+        if (!token) {
+          return false;
+        }
+
+        return !jwtHelper.isTokenExpired(token);
+      }
+
+      get currentUser() {
+        const token = this.getToken();
+
+        if (!token) {
+          return null;
+        }
+
+        return new angular2_jwt__WEBPACK_IMPORTED_MODULE_3__["JwtHelper"]().decodeToken(token);
+      }
+
+      getToken() {
+        return localStorage.getItem('token');
+      }
+
+    };
+
+    AuthService.ctorParameters = () => [{
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
+    }];
+
+    AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()], AuthService);
     /***/
   },
 
@@ -2445,44 +2853,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/common/http */
     "./node_modules/@angular/common/fesm2015/http.js");
 
-    var DataService = /*#__PURE__*/function () {
-      function DataService(http) {
-        _classCallCheck(this, DataService);
-
+    let DataService = class DataService {
+      constructor(http) {
         this.http = http;
         this.url = 'http://localhost:3000';
       }
 
-      _createClass(DataService, [{
-        key: "getAll",
-        value: function getAll() {
-          return this.http.get(this.url + '/api/posts');
-        }
-      }, {
-        key: "getById",
-        value: function getById(id) {
-          return this.http.get(this.url + '/api/posts' + id);
-        }
-      }, {
-        key: "getByText",
-        value: function getByText(data) {
-          return this.http.post(this.url + '/api/posts/search', data);
-        }
-      }, {
-        key: "createOrUpdate",
-        value: function createOrUpdate(post) {
-          return this.http.post("".concat(this.url, "/api/posts"), post);
-        }
-      }]);
+      getAll() {
+        return this.http.get(this.url + '/api/posts');
+      }
 
-      return DataService;
-    }();
+      getById(id) {
+        return this.http.get(this.url + '/api/posts' + id);
+      }
 
-    DataService.ctorParameters = function () {
-      return [{
-        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
-      }];
+      getByText(data) {
+        return this.http.post(this.url + '/api/posts/search', data);
+      }
+
+      createOrUpdate(post) {
+        return this.http.post("".concat(this.url, "/api/posts"), post);
+      }
+
     };
+
+    DataService.ctorParameters = () => [{
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
+    }];
 
     DataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()], DataService);
     /***/
@@ -2546,48 +2943,36 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
 
-    var SearchBarComponent = /*#__PURE__*/function () {
-      function SearchBarComponent(router, route) {
-        _classCallCheck(this, SearchBarComponent);
-
+    let SearchBarComponent = class SearchBarComponent {
+      constructor(router, route) {
         this.router = router;
         this.route = route;
         this.name = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
       }
 
-      _createClass(SearchBarComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          var _this5 = this;
+      ngOnInit() {
+        this.route.queryParams.subscribe(params => {
+          this.filterText = params['name'];
+          this.sendFilter();
+        });
+      }
 
-          this.route.queryParams.subscribe(function (params) {
-            _this5.filterText = params['name'];
+      sendFilter() {
+        this.router.navigate(['/blog'], {
+          queryParams: {
+            name: this.filterText
+          }
+        });
+        this.name.emit(this.filterText);
+      }
 
-            _this5.sendFilter();
-          });
-        }
-      }, {
-        key: "sendFilter",
-        value: function sendFilter() {
-          this.router.navigate(['/blog'], {
-            queryParams: {
-              name: this.filterText
-            }
-          });
-          this.name.emit(this.filterText);
-        }
-      }]);
-
-      return SearchBarComponent;
-    }();
-
-    SearchBarComponent.ctorParameters = function () {
-      return [{
-        type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
-      }, {
-        type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
-      }];
     };
+
+    SearchBarComponent.ctorParameters = () => [{
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+    }, {
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+    }];
 
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"])()], SearchBarComponent.prototype, "name", void 0);
     SearchBarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -2631,7 +3016,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     // The list of file replacements can be found in `angular.json`.
 
 
-    var environment = {
+    const environment = {
       production: false
     };
     /*
@@ -2694,9 +3079,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
     }
 
-    Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_3__["AppModule"]).catch(function (err) {
-      return console.error(err);
-    });
+    Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_3__["AppModule"]).catch(err => console.error(err));
     /***/
   },
 

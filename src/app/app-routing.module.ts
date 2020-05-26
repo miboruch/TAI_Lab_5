@@ -6,11 +6,21 @@ import { BlogItemDetailsComponent } from './components/blog-item-details/blog-it
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { AddPostComponent } from './components/add-post/add-post.component';
 import { AuthGuard } from './services/auth.guard';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'register',
+    component: SignupComponent
   },
   {
     path: 'contact',

@@ -23,6 +23,8 @@ import { SelectizeComponent } from './components/selectize/selectize.component';
 import { AddPostComponent } from './components/add-post/add-post.component';
 import { AuthService } from './services/auth.service';
 import { AuthInterceptor } from './services/auth.interceptor';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { AuthInterceptor } from './services/auth.interceptor';
     FilterPipe,
     TextFormatDirective,
     SelectizeComponent,
-    AddPostComponent
+    AddPostComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [
