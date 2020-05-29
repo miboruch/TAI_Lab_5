@@ -5,6 +5,7 @@ import routes from './REST/routes';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { config } from './config';
+import path from 'path';
 
 const app = express();
 
@@ -29,6 +30,10 @@ process.on('SIGINT', () => {
     console.error('Mongoose default connection disconnected through app termination');
     process.exit(0);
   });
+});
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 app.listen(process.env.PORT || 3000, () => console.log('Server is running'));

@@ -4,8 +4,8 @@
     <li [routerLink]="['/blog']">blog</li>
     <li [routerLink]="['/contact']">contact</li>
     <li [routerLink]="['/add-post']">add new post</li>
-    <li [routerLink]="['/login']">login</li>
-    <li [routerLink]="['/register']">register</li>
+    <li [routerLink]="['/login']" *ngIf="!authService.currentUser">login</li>
+    <li [routerLink]="['/register']" *ngIf="!authService.currentUser">register</li>
   </ul>
-  <button (click)="logOut()" class="dropdown-item">Wyloguj</button>
+  <button (click)="logOut()" class="dropdown-item" *ngIf="authService.currentUser">Wyloguj</button>
 </nav>

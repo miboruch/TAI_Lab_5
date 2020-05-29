@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"main-nav\">\n  <ul class=\"link-list\">\n    <li [routerLink]=\"['/']\">home</li>\n    <li [routerLink]=\"['/blog']\">blog</li>\n    <li [routerLink]=\"['/contact']\">contact</li>\n    <li [routerLink]=\"['/add-post']\">add new post</li>\n    <li [routerLink]=\"['/login']\">login</li>\n    <li [routerLink]=\"['/register']\">register</li>\n  </ul>\n  <button (click)=\"logOut()\" class=\"dropdown-item\">Wyloguj</button>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"main-nav\">\n  <ul class=\"link-list\">\n    <li [routerLink]=\"['/']\">home</li>\n    <li [routerLink]=\"['/blog']\">blog</li>\n    <li [routerLink]=\"['/contact']\">contact</li>\n    <li [routerLink]=\"['/add-post']\">add new post</li>\n    <li [routerLink]=\"['/login']\" *ngIf=\"!authService.currentUser\">login</li>\n    <li [routerLink]=\"['/register']\" *ngIf=\"!authService.currentUser\">register</li>\n  </ul>\n  <button (click)=\"logOut()\" class=\"dropdown-item\" *ngIf=\"authService.currentUser\">Wyloguj</button>\n</nav>\n");
 
 /***/ }),
 
@@ -1557,7 +1557,9 @@ AuthGuard.ctorParameters = () => [
     { type: _auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"] }
 ];
 AuthGuard = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
 ], AuthGuard);
 
 
@@ -1629,7 +1631,7 @@ __webpack_require__.r(__webpack_exports__);
 let AuthService = class AuthService {
     constructor(http) {
         this.http = http;
-        this.url = 'http://localhost:3000/api';
+        this.url = 'https://blog-tai-angular.herokuapp.com/api';
     }
     authenticate(credentials) {
         return this.http
@@ -1702,7 +1704,7 @@ __webpack_require__.r(__webpack_exports__);
 let DataService = class DataService {
     constructor(http) {
         this.http = http;
-        this.url = 'http://localhost:3000';
+        this.url = 'https://blog-tai-angular.herokuapp.com';
     }
     getAll() {
         return this.http.get(this.url + '/api/posts');

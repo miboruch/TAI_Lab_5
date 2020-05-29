@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class DataService {
-  private url = 'http://localhost:3000';
+  private url = 'https://blog-tai-angular.herokuapp.com';
   constructor(private http: HttpClient) {}
 
   getAll() {
